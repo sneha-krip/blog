@@ -1,6 +1,7 @@
-# Personal Blog
+# My Personal Blog
 
-A static blog built with Next.js that fetches content from Craft documents.
+Built with :heart: using [Craft MCP](https://www.craft.do/imagine) and GitHub Copilot.
+
 
 ## Development
 
