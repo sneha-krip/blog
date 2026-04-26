@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fbf7f3;
+  --color-cream-dark: #f3ede6;
+  --color-ink: #1e4c41;
+  --color-ink-light: #3d7a6a;
+  --color-ink-muted: #7a9e93;
+  --color-stone-200: #e7e5e4;
+  --color-stone-300: #d6d3d1;
+  --color-stone-400: #a8a29e;
+  --color-stone-500: #78716c;
+  --color-stone-600: #57534e;
+
+  --font-serif: "Iowan Old Style", "Palatino Linotype", "URW Palladio L",
+    P052, serif;
+  --font-sans: "Inter", "Helvetica Neue", "Arial", sans-serif;
+}
+
+html {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-serif);
+  line-height: 1.7;
+  font-size: 1.125rem;
+}
+
+a {
+  color: var(--color-ink);
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-ink-muted);
+  transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+  text-decoration-color: var(--color-ink);
+}
+
+::selection {
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+}
