@@ -43,7 +43,3 @@ Craft API → lib/craft.ts → pages fetch data at build time → static HTML in
 --color-ink-muted: #7a9e93;  /* subtle text/links */
 --font-serif: "Iowan Old Style", "Palatino Linotype", serif;
 ```
-
-**Spacing and sizing** — Look for Tailwind classes on elements in the page files (e.g., `py-16`, `mb-12`, `text-4xl`).
-
-**Post content rendering** — Edit `src/lib/renderer.ts`. Each block type has its own HTML template with inline Tailwind classes.
